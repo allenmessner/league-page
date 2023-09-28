@@ -149,7 +149,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>29 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
@@ -182,12 +182,12 @@
 
     <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
+    <h4 bind:this={oneTwoThree}>1.2.1 Trade Deadline</h4>
     <div class="subBlock">
         <p>There is no trade deadline. The only exception is: Teams currently competing in the playoffs may not trade, until they are eliminated from contention or the tournament ends.</p>
     </div>
     
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
+    <h4 bind:this={oneTwoFour}>1.2.2 Trade Restrictions</h4>
     <div class="subBlock">
         <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. You may only trade FAAB $ from the current season.</p>
     </div>
