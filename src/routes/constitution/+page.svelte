@@ -181,32 +181,21 @@
     <p>Picks may be traded one year in advance at no cost, or up to 3 years in the future, as long as the giving party pays their league dues through that season ($25/year).</p>
 
     <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-    </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>There is no trade deadline. The only exception is: Teams currently competing in the playoffs may not trade, until they are eliminated from contention or the tournament ends.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2023 season you cannot trade any picks in or after the 2027 draft. You may only trade FAAB $ from the current season.</p>
     </div>
-    
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-    <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
-    
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Wednesdays at 3AM EST.</p>
 
     <p>FAAB budgets will reset each season in January.</p>
     
@@ -217,7 +206,7 @@
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <p>Rookie drafts will consist of 4 rounds of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
@@ -226,7 +215,7 @@
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical 1PPR Scoring). The scoring system will never change without a majority league vote.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
@@ -259,19 +248,21 @@
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 100% reductioon on their first year buy-in.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at $25. Dues must be submitted to the commissioner in cash or by venmo and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: $150</li>
+        <li>2nd place: $50</li>
+        <li>3rd place: $25</li>
+
+        <li> An additional $5 will be paid out weekly to the highest scorer.</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
