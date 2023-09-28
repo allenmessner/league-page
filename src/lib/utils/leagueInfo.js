@@ -72,7 +72,7 @@ export const managers = [
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Kent, Ohio", // (optional)
       "bio": "Guys that are good on paper but fail me weekly.",
-      "photo": "/managers/IMG_2352.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Nathaniel.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -92,7 +92,7 @@ export const managers = [
       "managerID": "966929309099180032",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Philip Tucker",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Hartville, Ohio", // (optional)
+      "location": "Green, Ohio", // (optional)
       "bio": "Chloe and Archie",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
@@ -180,7 +180,7 @@ export const managers = [
       "managerID": "866146536143323136",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Colby Pepper",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Hartville, Ohio", // (optional)
+      "location": "Kansas City, Missouri", // (optional)
       "bio": "Chloe and Archie",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
@@ -202,7 +202,7 @@ export const managers = [
       "managerID": "786387790320529408",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Nate Shetler",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Hartville, Ohio", // (optional)
+      "location": "Green, Ohio", // (optional)
       "bio": "Chloe and Archie",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
@@ -224,7 +224,7 @@ export const managers = [
       "managerID": "968979202424811520",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Drew Shetler",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Hartville, Ohio", // (optional)
+      "location": "Green, Ohio", // (optional)
       "bio": "Chloe and Archie",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
@@ -246,7 +246,7 @@ export const managers = [
       "managerID": "982358094992752640",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Caden Bahry",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Hartville, Ohio", // (optional)
+      "location": "Green, Ohio", // (optional)
       "bio": "Chloe and Archie",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
